@@ -12,6 +12,7 @@ public class FileSound: BaseSoundLoader
         }
             
         file = Path.GetFullPath(file);
-        PlayerController.MonoBehaviour.StartCoroutine(LoadSound("file://" + file));
+        //PlayerController.MonoBehaviour.StartCoroutine(LoadSound("file://" + file));
+        PlayerController.MonoBehaviour.StartCoroutine(LoadSound(file));
     }
 }

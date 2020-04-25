@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Name: Warcraft3Playlist
   m_EditorClassIdentifier: 
   Sounds:
-  - Name: DarkVictory
-    Type: 0
-  - Name: Assets/Resources/HeroicVictory.ogg
+  - Name: G:\sources\unityprojects\TempProject\SoundTest\Assets\Resources\DarkVictory.mp3
     Type: 1
+  - Name: Audio/HeroicVictory.ogg
+    Type: 0
   - Name: https://atisprim.net/Comradeship.ogg
     Type: 2
   - Name: OrcVictory
     Type: 0
   - Name: https://atisprim.net/OrcDefeat.ogg
     Type: 2
-  - Name: Assets/Resources/TragicConfrontation.ogg
-    Type: 1
+  - Name: Audio/TragicConfrontation.ogg
+    Type: 0
